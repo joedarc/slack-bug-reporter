@@ -1,0 +1,6 @@
+{
+  "name": "slack-bug-reporter",
+  "description": "A sample Slack app that implements a bug reporting feature using a Slash Command and Dialog",
+  "repository": "https://github.com/joedarc/slack-bug-reporter",
+  "keywords": ["node", "express", "slack", "slash command"]
+}

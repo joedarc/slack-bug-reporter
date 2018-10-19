@@ -1,0 +1,23 @@
+{
+  "name": "slack-bug-reporter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simple Bot that submits bugs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=rl-bug-reporter node src/index.js"
+  },
+  "author": "Joe D'Arcangelo",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.7"
+  },
+  "dependencies": {
+    "axios": "^0.16.0",
+    "body-parser": "^1.17.1",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2"
+  }
+}
