@@ -1,5 +1,6 @@
 const qs = require('querystring');
 const axios = require('axios');
+const debug = require('debug')('slack-bug-reporter:users');
 
 const find = (slackUserId) => {
   const body = { token: process.env.SLACK_ACCESS_TOKEN, user: slackUserId };

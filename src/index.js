@@ -5,6 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const qs = require('querystring');
 const bug = require('./bug');
+const debug = require('debug')('slack-bug-reporter:index');
 
 const app = express();
 

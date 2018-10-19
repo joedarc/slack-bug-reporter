@@ -1,6 +1,7 @@
 const axios = require('axios');
 const qs = require('querystring');
 const users = require('./users');
+const debug = require('debug')('slack-bug-reporter:bug');
 
 /*
  *  Send bug creation confirmation via
